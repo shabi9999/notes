@@ -171,7 +171,7 @@ The system architecture consists of the following components:
 - **Response.**:
 
 ```json
-
+[
   {
 
 "id": "zone_001",
@@ -187,6 +187,7 @@ The system architecture consists of the following components:
 "assignedDriver": "Driver 1"
 
   }
+]
 ```
 
 # Sanity CMS Schemas:
@@ -258,7 +259,7 @@ The system architecture consists of the following components:
 
 # [Delivery Zone]
 
--id
+- _id
 
 - Zone name
 
@@ -369,6 +370,7 @@ export const ProductType = defineType({
     }),
   ],
 });
+```
 
 
  
