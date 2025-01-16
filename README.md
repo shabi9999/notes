@@ -55,9 +55,8 @@ The system architecture consists of the following components:
 # API Endpoints
 
 # Products
-
-- 
-**Endpoint.**: /products
+ 
+- **Endpoint.**: /products
 
 - **Method.**: GET
 
@@ -112,11 +111,11 @@ The system architecture consists of the following components:
 
 - **Endpoint.**: /payment
 
- **Method.**: Post
+- **Method.**: Post
  
- **Description.**: Process payment for an order
+- **Description.**: Process payment for an order
 
-**Payload.**:
+- **Payload.**:
 
 ```json
 [
@@ -167,7 +166,7 @@ The system architecture consists of the following components:
 
 - **Method.**: GET
 
-**Description.**: Fetch all delivery zones and their details.
+- **Description.**: Fetch all delivery zones and their details.
 
 - **Response.**:
 
