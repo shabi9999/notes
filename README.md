@@ -80,10 +80,16 @@ Response:
 "reviews" : 4.5,
   }
 ]
+```
+
 
 # Orders
 
-(-) Endpoint: /orders
+- Endpoint: /orders
 
 -Method: POST
+
+Description: Create a new ord
+
+Payload:
 
