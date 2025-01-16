@@ -7,3 +7,5 @@ The system architecture consists of the following components:
 
 2. Backend: Sanity CMS to manage data (products, customers, orders).
 
+3.Third-Party APIs: For payment processing and shipment tracking. 
+
