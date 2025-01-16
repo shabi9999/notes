@@ -61,3 +61,19 @@ Description: Fetch all available products.
 
 Response:
 
+[
+"_id": "prood_001",
+"name": "Wooden Coffee Table",
+"description" : "A stylish wooden coffee table",
+"price" : 150,
+"image" : [
+{"_types": "image", "asset": {"_ref": "image_ref_001",
+"_type": "reference" } } ],
+"material" : "wood",
+"stock" : 25,
+"category" : "Living Room",
+"tags" : [ "sale", "new arrival"],
+"reviews" : 4.5,
+}
+]
+
