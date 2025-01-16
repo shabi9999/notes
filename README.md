@@ -23,3 +23,11 @@ Step 2: Data is sent to Sanity CMS and stored as a customer record
 
 Step 3: A welcome email is sent to the user (optional).
 
+# 2. Product Browsing
+
+Step 1: User selects a category (e.g., Casual, Formal).
+
+Step 2: Frontend fetches filtered products from Sanity CMS.
+
+Step 3: Products are displayed with sorting and filtering options.
+
