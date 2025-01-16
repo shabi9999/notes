@@ -170,7 +170,7 @@ The system architecture consists of the following components:
 
 - **Response.**:
 
-```
+```json
 
   {
 
@@ -283,16 +283,93 @@ export const ProductType = defineType({
     defineField({
       title: "Product Name",
       type: "string",
-      name: "itemName",
+      name: "productName",
     }),
     defineField({
-      title: "Product Price",
-      type: "number",
-      name: "actualPrice",
+      title: "Product Description",
+      type: "text",
+      name: "productDescription",
     }),
-    // ... other fields ...
+    defineField({
+      title: "Price",
+      type: "number",
+      name: "price",
+    }),
+    defineField({
+      title: "Sale Price",
+      type: "number",
+      name: "salePrice",
+    }),
+    defineField({
+      title: "Material",
+      type: "string",
+      name: "material",
+      options: {
+        list: [
+          { title: "Wood", value: "wood" },
+          { title: "Metal", value: "metal" },
+          { title: "Plastic", value: "plastic" },
+          { title: "Fabric", value: "fabric" },
+        ],
+      },
+    }),
+    defineField({
+      title: "Color",
+      type: "array",
+      of: [{ type: "string" }],
+      options: {
+        list: [
+          { title: "Black", value: "black" },
+          { title: "White", value: "white" },
+          { title: "Brown", value: "brown" },
+          { title: "Grey", value: "grey" },
+          // Add more colors as needed
+        ],
+      },
+    }),
+    defineField({
+      title: "Dimensions",
+      type: "string",
+      name: "dimensions",
+    }),
+    defineField({
+      title: "Weight",
+      type: "number",
+      name: "weight",
+    }),
+    defineField({
+      title: "Style",
+      type: "string",
+      name: "style",
+      options: {
+        list: [
+          { title: "Modern", value: "modern" },
+          { title: "Classic", value: "classic" },
+          { title: "Industrial", value: "industrial" },
+          { title: "Mid-Century Modern", value: "midCenturyModern" },
+        ],
+      },
+    }),
+    defineField({
+      title: "Main Image",
+      name: "mainImage",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    }),
+    defineField({
+      title: "Gallery Images",
+      name: "galleryImages",
+      type: "array",
+      of: [{ type: "image" }],
+      options: {
+        hotspot: true,
+      },
+    }),
   ],
 });
+
 
  
 
