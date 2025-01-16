@@ -49,3 +49,12 @@ Step 2: Frontend fetches the latest status from the Shipment Tracking API.
 
 Step 3: Real-time updates are displayed to the user.
 
+# API Endpoints
+
+# Products
+
+Endpoint: /products
+Method: GET
+Description: Fetch all available products.
+Response:
+
