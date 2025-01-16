@@ -31,3 +31,21 @@ Step 2: Frontend fetches filtered products from Sanity CMS.
 
 Step 3: Products are displayed with sorting and filtering options.
 
+# 3. Order Placement
+
+Step 1: User adds products to the cart.
+
+Step 2: On checkout, order details are sent to Sanity CMS and stored.
+
+Step 3: Payment details are processed via the Payment Gateway.
+
+Step 4: Order status is updated, and the user receives a confirmation.
+
+# 4. Shipment Tracking
+
+Step 1: User requests shipment tracking.
+
+Step 2: Frontend fetches the latest status from the Shipment Tracking API.
+
+Step 3: Real-time updates are displayed to the user.
+
