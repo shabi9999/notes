@@ -18,6 +18,8 @@ The system architecture consists of the following components:
 # User Registration
 
 Step 1: User enters name, email, and password on the frontend.
-Step 2: Data is sent to Sanity CMS and stored as a customer record.
+
+Step 2: Data is sent to Sanity CMS and stored as a customer record
+
 Step 3: A welcome email is sent to the user (optional).
 
