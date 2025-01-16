@@ -194,27 +194,27 @@ The system architecture consists of the following components:
 
  [Product]
 
- (-) _id
+ - _id
 
- (-) Name
+ - Name
 
- (-) Description
+ - Description
 
- (-) Image
+ - Image
 
- (-) Price
+ - Price
 
- (-) Stock
+- Stock
 
- (-) Discount price
+- Discount price
 
- (-) Categories
+ - Categories
 
- (-) Tags
+ - Tags
 
- (-) Reviews
+- Reviews
 
- (-) Colors
+ - Colors
 
 
 
