@@ -130,6 +130,64 @@ Payload:
 ]
 ```
 
+# Shipment
+
+
+Endpoint: /shipment/:
+
+Method: GET
+
+Description: Track the status of a shipment.
+
+Response:
+
+```json
+[
+  {
+"_id": "ship_001",
+"order": {
+" id": "order_001",
+"totalAmount": 150,
+},
+"trackingNumber": "track_001",
+"status": "In Transit",
+"estimateDelivery": "2025-01-16"
+  }
+]
+```
+
+# Shipment
+
+
+Endpoint: /shipment/:
+
+Method: GET
+
+Description: Fetch all delivery zones and their details.
+
+Response:
+
+```json
+[
+  {
+"id": "zone_001",
+
+"zoneName": "zone_001",
+
+"coverageArea": ["City A", "City B",
+
+"shippingCost": "001",
+
+"carrier": "Carrier",
+
+"assignedDriver": "Driver 1"
+  }
+]
+```
+
+
+
+
   
 
   
