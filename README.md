@@ -146,7 +146,7 @@ The system architecture consists of the following components:
 
 ```json
 [
-  {
+  
 "_id": "ship_001",
 "order": {
 " id": "order_001",
@@ -155,7 +155,7 @@ The system architecture consists of the following components:
 "trackingNumber": "track_001",
 "status": "In Transit",
 "estimateDelivery": "2025-01-16"
-  }
+  
 ]
 ```
 
