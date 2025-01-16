@@ -268,11 +268,10 @@ The system architecture consists of the following components:
 
 - Carrier
 
- # Product Schema
+ ### Product Schema
 
 ```json
- 
-  import { defineField, defineType } from "sanity";
+ import { defineField, defineType } from "sanity";
 
 export const ProductType = defineType({
   title: "Product",
@@ -368,8 +367,9 @@ export const ProductType = defineType({
     }),
   ],
 });
- 
 ```
+ 
+
 
 
 
