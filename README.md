@@ -167,8 +167,8 @@ Description: Fetch all delivery zones and their details.
 
 Response:
 
-```json
-[
+```
+
   {
 
 "id": "zone_001",
@@ -184,8 +184,36 @@ Response:
 "assignedDriver": "Driver 1"
 
   }
-]
 ```
+
+# Sanity CMS Schemas:
+
+ [Product]
+
+-_id
+
+-Name
+
+-Description
+
+-Image
+
+-Price
+
+-Stock
+
+-Discount price
+
+-Categories
+
+-Tags
+
+-Reviews
+
+-Colors
+
+
+
 
 
 
