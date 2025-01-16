@@ -53,13 +53,13 @@ Step 3: Real-time updates are displayed to the user.
 
 # Products
 
-## Endpoint: /products
+- Endpoint: /products
 
- Method: GET
+- Method: GET
 
-Description: Fetch all available products.
+- Description: Fetch all available products.
 
-Response:
+- Response:
 
 
 
@@ -87,9 +87,50 @@ Response:
 
 - Endpoint: /orders
 
--Method: POST
+- Method: POST
 
-Description: Create a new ord
+- Description: Create a new ord
+
+- Payload:
+
+ ```json
+[
+  {
+   "productID" : "prod_001",
+"Quantity" : 2,
+"totalAmount" : 300,
+"OrderDate" : " 2025-01-16"
+  }
+]
+```
+
+# Payment
+
+Endpoint: /payment
+
+Method: 
+ 
+Description: Process payment for an order
 
 Payload:
+
+```json
+[
+  {
+ "order": {
+" id": "oder_001",
+"totalAmount": 150,
+},
+"paymentMethod": "Credit Card",
+"status": "completed",
+"transactionId": "txn_001",
+"Amount": 300,
+"PaymentDate": "2025-01-16"
+  }
+]
+```
+
+  
+
+  
 
