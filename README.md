@@ -53,16 +53,20 @@ Step 3: Real-time updates are displayed to the user.
 
 # Products
 
-Endpoint: /products
+## Endpoint: /products
 
-Method: GET
+ Method: GET
 
 Description: Fetch all available products.
 
 Response:
 
+
+
+```json
 [
-"_id": "prood_001",
+  {
+    "_id": "prood_001",
 "name": "Wooden Coffee Table",
 "description" : "A stylish wooden coffee table",
 "price" : 150,
@@ -74,6 +78,6 @@ Response:
 "category" : "Living Room",
 "tags" : [ "sale", "new arrival"],
 "reviews" : 4.5,
-}
+  }
 ]
 
