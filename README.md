@@ -17,49 +17,53 @@ The system architecture consists of the following components:
 
 # User Registration
 
-Step 1: User enters name, email, and password on the frontend.
+**Step 1.**: User enters name, email, and password on the frontend.
 
-Step 2: Data is sent to Sanity CMS and stored as a customer record
+**Step 2.**: Data is sent to Sanity CMS and stored as a customer record
 
-Step 3: A welcome email is sent to the user (optional).
+**Step 3.**: A welcome email is sent to the user (optional).
 
 # 2. Product Browsing
 
-Step 1: User selects a category (e.g., Casual, Formal).
+**Step 1.**: User selects a category (e.g., Casual, Formal).
 
-Step 2: Frontend fetches filtered products from Sanity CMS.
+**Step 2.**: Frontend fetches filtered products from Sanity CMS.
 
-Step 3: Products are displayed with sorting and filtering options.
+**Step 3.**: Products are displayed with sorting and filtering options.
 
 # 3. Order Placement
 
-Step 1: User adds products to the cart.
+**Step 1.**: User adds products to the cart.
 
-Step 2: On checkout, order details are sent to Sanity CMS and stored.
+**Step 2.**: On checkout, order details are sent to Sanity CMS and stored.
 
-Step 3: Payment details are processed via the Payment Gateway.
+**Step 3.**: Payment details are processed via the Payment Gateway.
 
-Step 4: Order status is updated, and the user receives a confirmation.
+**Step 4.**: Order status is updated, and the user receives a confirmation.
 
 # 4. Shipment Tracking
 
-Step 1: User requests shipment tracking.
 
-Step 2: Frontend fetches the latest status from the Shipment Tracking API.
+**Step 1.**: User requests shipment tracking.
 
-Step 3: Real-time updates are displayed to the user.
+
+**Step 2.**:Frontend fetches the latest status from the Shipment Tracking API.
+
+
+**Step 3.**: Real-time updates are displayed to the user.
 
 # API Endpoints
 
 # Products
 
-- Endpoint: /products
+- 
+**Endpoint.**: /products
 
-- Method: GET
+- **Method.**: GET
 
-- Description: Fetch all available products.
+- **Description**: Fetch all available products.
 
-- Response:
+- **Response.**:
 
 
 
@@ -85,13 +89,13 @@ Step 3: Real-time updates are displayed to the user.
 
 # Orders
 
-- Endpoint: /orders
+- **Endpoint.**: /orders
 
-- Method: POST
+- **Method.**: POST
 
-- Description: Create a new ord
+- **Description.**: Create a new ord
 
-- Payload:
+- **Payload.**:
 
  ```json
 [
@@ -106,13 +110,13 @@ Step 3: Real-time updates are displayed to the user.
 
 # Payment
 
-Endpoint: /payment
+- **Endpoint.**: /payment
 
-Method: 
+ **Method.**: Post
  
-Description: Process payment for an order
+ **Description.**: Process payment for an order
 
-Payload:
+**Payload.**:
 
 ```json
 [
@@ -133,13 +137,13 @@ Payload:
 # Shipment
 
 
-Endpoint: /shipment/:
+- **Endpoint.**: /shipment/:
 
-Method: GET
+- **Method.**: GET
 
-Description: Track the status of a shipment.
+- **Description.**: Track the status of a shipment.
 
-Response:
+- **Response.**:
 
 ```json
 [
@@ -159,13 +163,13 @@ Response:
 # Shipment
 
 
-Endpoint: /shipment/:
+- **Endpoint.**: /shipment/:
 
-Method: GET
+- **Method.**: GET
 
-Description: Fetch all delivery zones and their details.
+**Description.**: Fetch all delivery zones and their details.
 
-Response:
+- **Response.**:
 
 ```
 
@@ -190,27 +194,27 @@ Response:
 
  [Product]
 
--_id
+ (-) _id
 
--Name
+ (-) Name
 
--Description
+ (-) Description
 
--Image
+ (-) Image
 
--Price
+ (-) Price
 
--Stock
+ (-) Stock
 
--Discount price
+ (-) Discount price
 
--Categories
+ (-) Categories
 
--Tags
+ (-) Tags
 
--Reviews
+ (-) Reviews
 
--Colors
+ (-) Colors
 
 
 
