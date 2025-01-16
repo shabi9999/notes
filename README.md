@@ -54,7 +54,10 @@ Step 3: Real-time updates are displayed to the user.
 # Products
 
 Endpoint: /products
+
 Method: GET
+
 Description: Fetch all available products.
+
 Response:
 
