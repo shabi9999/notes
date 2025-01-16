@@ -81,3 +81,9 @@ Response:
   }
 ]
 
+# Orders
+
+(-) Endpoint: /orders
+
+-Method: POST
+
