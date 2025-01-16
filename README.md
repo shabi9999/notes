@@ -271,8 +271,7 @@ The system architecture consists of the following components:
  # Product Schema
 
 ```json
-  [
-  {
+ 
   import { defineField, defineType } from "sanity";
 
 export const ProductType = defineType({
@@ -369,8 +368,7 @@ export const ProductType = defineType({
     }),
   ],
 });
- }
-]
+ 
 ```
 
 
