@@ -172,7 +172,7 @@ The system architecture consists of the following components:
 
 ```json
 [
-  {
+  
 
 "id": "zone_001",
 
@@ -186,7 +186,7 @@ The system architecture consists of the following components:
 
 "assignedDriver": "Driver 1"
 
-  }
+  
 ]
 ```
 
